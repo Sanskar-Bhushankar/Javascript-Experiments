@@ -1,0 +1,31 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 400px;
+    width: 300px;
+    background-color: azure;
+    position: relative;
+}
+#container img{
+    height: 100%;
+    width: 100%;
+
+}
+
+#container i{
+    color:#fff;
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.6;
+    transition: transform ease 0.5s;
+}

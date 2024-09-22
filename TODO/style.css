@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.value{
+    background-color: aliceblue;
+    width: 50%;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.value h1{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.value #textbox{
+    margin-left: 42px;
+    width: 70%;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.value #submit{
+    margin-top: 20px;
+    height: 38px;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+}
+
+.note-container{
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between note and delete button */
+    width: 80%; /* Set a width for the container */
+    margin: 10px auto; /* Center the container */
+}
+    
+
+.notes h2 {
+    background-color: rgb(102, 102, 171);
+    color: white; 
+    padding: 10px;
+    margin-top: 7px;
+    /* Remove margin to prevent extra space */
+    flex-grow: 1; /* Allow the note to take remaining space */
+}
+
+.notes button{
+   
+    margin-left: 10px;
+    height: 38px;
+    padding: 10px;
+
+}
